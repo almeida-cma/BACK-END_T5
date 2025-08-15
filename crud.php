@@ -23,7 +23,7 @@ print_r($frutas);
 echo "<br>";
 
 // Inserir um novo elemento em uma posição específica
-$frutas[2] = "Uva";
+array_splice($frutas, 2, 0, "Uva");
 echo "Array após inserir Uva na posição 2: ";
 print_r($frutas);
 echo "<br>";
